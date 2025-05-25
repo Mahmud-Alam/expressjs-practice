@@ -1,0 +1,31 @@
+{
+  "name": "expressjs-practice",
+  "author": {
+    "name": "Mahmud Alam",
+    "url": "https://mahmudalam.com"
+  },
+  "version": "1.0.0",
+  "description": "Building an API of the world's most promising startup's data",
+  "homepage": "https://github.com/Mahmud-Alam/expressjs-practice#readme",
+  "bugs": {
+    "url": "https://github.com/Mahmud-Alam/expressjs-practice/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mahmud-Alam/expressjs-practice.git"
+  },
+  "license": "ISC",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
