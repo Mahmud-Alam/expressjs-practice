@@ -23,3 +23,14 @@ app.get('/api',(req, res)=>{
     res.json(filterData)
 })
 
+app.get('/api/:key/:value', (req, res)=>{
+    let filterData = startups;
+
+    filterData = filterData.filter(data=>{
+        return String(data[req.params.key]).toLowerCase() === String(req.params.value).toLowerCase();
+    })
+    
+    res.json(filterData)
+    
+})
+
